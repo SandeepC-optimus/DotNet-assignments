@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap>
+  <siteMapNode title="Home" description="Home" url="~/default.aspx">
+    <siteMapNode title="Technology News" description="Technology News" url="~/techNews.aspx" />
+    <siteMapNode title="Extra Curricular Activities" description="Extra Curricular Activities" url="~/extraCurr.aspx"/>
+  </siteMapNode>
+</siteMap>

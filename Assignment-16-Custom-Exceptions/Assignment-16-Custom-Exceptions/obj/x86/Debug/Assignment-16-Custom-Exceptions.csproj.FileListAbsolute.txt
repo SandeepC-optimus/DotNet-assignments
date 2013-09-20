@@ -1,0 +1,5 @@
+c:\users\shweta sharma\documents\visual studio 2010\Projects\Assignment-16-Custom-Exceptions\Assignment-16-Custom-Exceptions\bin\Debug\Assignment-16-Custom-Exceptions.exe
+c:\users\shweta sharma\documents\visual studio 2010\Projects\Assignment-16-Custom-Exceptions\Assignment-16-Custom-Exceptions\bin\Debug\Assignment-16-Custom-Exceptions.pdb
+c:\users\shweta sharma\documents\visual studio 2010\Projects\Assignment-16-Custom-Exceptions\Assignment-16-Custom-Exceptions\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\shweta sharma\documents\visual studio 2010\Projects\Assignment-16-Custom-Exceptions\Assignment-16-Custom-Exceptions\obj\x86\Debug\Assignment-16-Custom-Exceptions.exe
+c:\users\shweta sharma\documents\visual studio 2010\Projects\Assignment-16-Custom-Exceptions\Assignment-16-Custom-Exceptions\obj\x86\Debug\Assignment-16-Custom-Exceptions.pdb
