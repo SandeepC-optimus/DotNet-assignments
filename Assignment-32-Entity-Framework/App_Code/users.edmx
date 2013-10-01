@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="userdataModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+        <EntityContainer Name="userdataModelStoreContainer">
+          <EntitySet Name="userdetails" EntityType="userdataModel.Store.userdetails" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="users" EntityType="userdataModel.Store.users" store:Type="Tables" Schema="dbo" />
+          <AssociationSet Name="FK__userdetai__usern__023D5A04" Association="userdataModel.Store.FK__userdetai__usern__023D5A04">
+            <End Role="users" EntitySet="users" />
+            <End Role="userdetails" EntitySet="userdetails" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="userdetails">
+          <Key>
+            <PropertyRef Name="uid" />
+          </Key>
+          <Property Name="username" Type="varchar" MaxLength="30" />
+          <Property Name="name" Type="varchar" MaxLength="30" />
+          <Property Name="age" Type="int" />
+          <Property Name="uid" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="users">
+          <Key>
+            <PropertyRef Name="username" />
+          </Key>
+          <Property Name="username" Type="varchar" Nullable="false" MaxLength="30" />
+          <Property Name="pswrd" Type="varchar" MaxLength="30" />
+          <Property Name="roles" Type="varchar" MaxLength="10" />
+        </EntityType>
+        <Association Name="FK__userdetai__usern__023D5A04">
+          <End Role="users" Type="userdataModel.Store.users" Multiplicity="0..1" />
+          <End Role="userdetails" Type="userdataModel.Store.userdetails" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="users">
+              <PropertyRef Name="username" />
+            </Principal>
+            <Dependent Role="userdetails">
+              <PropertyRef Name="username" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="userdataModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+        <EntityContainer Name="userdataEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="userdetails" EntityType="userdataModel.userdetail" />
+          <EntitySet Name="users" EntityType="userdataModel.user" />
+          <AssociationSet Name="FK__userdetai__usern__023D5A04" Association="userdataModel.FK__userdetai__usern__023D5A04">
+            <End Role="users" EntitySet="users" />
+            <End Role="userdetails" EntitySet="userdetails" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="userdetail">
+          <Key>
+            <PropertyRef Name="uid" />
+          </Key>
+          <Property Name="username" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+          <Property Name="name" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+          <Property Name="age" Type="Int32" />
+          <Property Name="uid" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="user" Relationship="userdataModel.FK__userdetai__usern__023D5A04" FromRole="userdetails" ToRole="users" />
+        </EntityType>
+        <EntityType Name="user">
+          <Key>
+            <PropertyRef Name="username" />
+          </Key>
+          <Property Name="username" Type="String" Nullable="false" MaxLength="30" Unicode="false" FixedLength="false" />
+          <Property Name="pswrd" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+          <Property Name="roles" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+          <NavigationProperty Name="userdetails" Relationship="userdataModel.FK__userdetai__usern__023D5A04" FromRole="users" ToRole="userdetails" />
+        </EntityType>
+        <Association Name="FK__userdetai__usern__023D5A04">
+          <End Role="users" Type="userdataModel.user" Multiplicity="0..1" />
+          <End Role="userdetails" Type="userdataModel.userdetail" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="users">
+              <PropertyRef Name="username" />
+            </Principal>
+            <Dependent Role="userdetails">
+              <PropertyRef Name="username" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="userdataModelStoreContainer" CdmEntityContainer="userdataEntities">
+          <EntitySetMapping Name="userdetails"><EntityTypeMapping TypeName="userdataModel.userdetail"><MappingFragment StoreEntitySet="userdetails">
+            <ScalarProperty Name="username" ColumnName="username" />
+            <ScalarProperty Name="name" ColumnName="name" />
+            <ScalarProperty Name="age" ColumnName="age" />
+            <ScalarProperty Name="uid" ColumnName="uid" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="users"><EntityTypeMapping TypeName="userdataModel.user"><MappingFragment StoreEntitySet="users">
+            <ScalarProperty Name="username" ColumnName="username" />
+            <ScalarProperty Name="pswrd" ColumnName="pswrd" />
+            <ScalarProperty Name="roles" ColumnName="roles" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams>
+      <Diagram Name="users">
+        <EntityTypeShape EntityType="userdataModel.userdetail" Width="1.5" PointX="3" PointY="0.875" Height="1.9802864583333335" IsExpanded="true" />
+        <EntityTypeShape EntityType="userdataModel.user" Width="1.5" PointX="0.75" PointY="1" Height="1.7879850260416674" IsExpanded="true" />
+        <AssociationConnector Association="userdataModel.FK__userdetai__usern__023D5A04" ManuallyRouted="false">
+          <ConnectorPoint PointX="2.25" PointY="1.8939925130208337" />
+          <ConnectorPoint PointX="3" PointY="1.8939925130208337" />
+        </AssociationConnector>
+      </Diagram>
+    </Diagrams>
+  </Designer>
+</edmx:Edmx>
