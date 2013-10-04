@@ -1,0 +1,5 @@
+c:\users\shweta sharma\documents\visual studio 2010\Projects\Assignment-26-XML-3\Assignment-26-XML-3\obj\Debug\ResolveAssemblyReference.cache
+c:\users\shweta sharma\documents\visual studio 2010\Projects\Assignment-26-XML-3\Assignment-26-XML-3\bin\Assignment-26-XML-3.dll
+c:\users\shweta sharma\documents\visual studio 2010\Projects\Assignment-26-XML-3\Assignment-26-XML-3\bin\Assignment-26-XML-3.pdb
+c:\users\shweta sharma\documents\visual studio 2010\Projects\Assignment-26-XML-3\Assignment-26-XML-3\obj\Debug\Assignment-26-XML-3.dll
+c:\users\shweta sharma\documents\visual studio 2010\Projects\Assignment-26-XML-3\Assignment-26-XML-3\obj\Debug\Assignment-26-XML-3.pdb

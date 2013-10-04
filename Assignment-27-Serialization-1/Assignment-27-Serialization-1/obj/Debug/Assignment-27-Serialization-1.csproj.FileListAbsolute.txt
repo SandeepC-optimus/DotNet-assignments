@@ -1,0 +1,5 @@
+c:\users\shweta sharma\documents\visual studio 2010\Projects\Assignment-27-Serialization-1\Assignment-27-Serialization-1\obj\Debug\ResolveAssemblyReference.cache
+c:\users\shweta sharma\documents\visual studio 2010\Projects\Assignment-27-Serialization-1\Assignment-27-Serialization-1\bin\Assignment-27-Serialization-1.dll
+c:\users\shweta sharma\documents\visual studio 2010\Projects\Assignment-27-Serialization-1\Assignment-27-Serialization-1\bin\Assignment-27-Serialization-1.pdb
+c:\users\shweta sharma\documents\visual studio 2010\Projects\Assignment-27-Serialization-1\Assignment-27-Serialization-1\obj\Debug\Assignment-27-Serialization-1.dll
+c:\users\shweta sharma\documents\visual studio 2010\Projects\Assignment-27-Serialization-1\Assignment-27-Serialization-1\obj\Debug\Assignment-27-Serialization-1.pdb

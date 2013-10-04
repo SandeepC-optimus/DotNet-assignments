@@ -1,0 +1,5 @@
+c:\users\shweta sharma\documents\visual studio 2010\Projects\Assignment-25-XML-Searching\Assignment-25-XML-Searching\obj\Debug\ResolveAssemblyReference.cache
+c:\users\shweta sharma\documents\visual studio 2010\Projects\Assignment-25-XML-Searching\Assignment-25-XML-Searching\bin\Assignment-25-XML-Searching.dll
+c:\users\shweta sharma\documents\visual studio 2010\Projects\Assignment-25-XML-Searching\Assignment-25-XML-Searching\bin\Assignment-25-XML-Searching.pdb
+c:\users\shweta sharma\documents\visual studio 2010\Projects\Assignment-25-XML-Searching\Assignment-25-XML-Searching\obj\Debug\Assignment-25-XML-Searching.dll
+c:\users\shweta sharma\documents\visual studio 2010\Projects\Assignment-25-XML-Searching\Assignment-25-XML-Searching\obj\Debug\Assignment-25-XML-Searching.pdb

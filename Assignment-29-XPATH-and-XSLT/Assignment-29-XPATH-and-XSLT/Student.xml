@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Students>
+  <Student name="Sandeep Singh" age="23">
+    <stream>Computer</stream>
+    <Address>
+      <city>kota</city>
+      <country>India</country>
+    </Address>
+  </Student>
+  <Student name="Ashu jain" age="22">
+    <stream>PCM<College>Engineering</College></stream>
+    <Address>
+      <city>Ambala</city>
+      <country>India</country>
+    </Address>
+  </Student>
+  <Student name="Rahul Gupta" age="22">
+    <stream>PCM<College>Engineering</College></stream>
+    <Address>
+      <city>Chandigarh</city>
+      <country>India</country>
+    </Address>
+  </Student>
+</Students>

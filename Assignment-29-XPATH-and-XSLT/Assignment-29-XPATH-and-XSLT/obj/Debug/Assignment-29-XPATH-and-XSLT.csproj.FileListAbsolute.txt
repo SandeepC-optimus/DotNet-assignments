@@ -1,0 +1,5 @@
+c:\users\shweta sharma\documents\visual studio 2010\Projects\Assignment-29-XPATH-and-XSLT\Assignment-29-XPATH-and-XSLT\bin\Assignment-29-XPATH-and-XSLT.dll
+c:\users\shweta sharma\documents\visual studio 2010\Projects\Assignment-29-XPATH-and-XSLT\Assignment-29-XPATH-and-XSLT\bin\Assignment-29-XPATH-and-XSLT.pdb
+c:\users\shweta sharma\documents\visual studio 2010\Projects\Assignment-29-XPATH-and-XSLT\Assignment-29-XPATH-and-XSLT\obj\Debug\ResolveAssemblyReference.cache
+c:\users\shweta sharma\documents\visual studio 2010\Projects\Assignment-29-XPATH-and-XSLT\Assignment-29-XPATH-and-XSLT\obj\Debug\Assignment-29-XPATH-and-XSLT.dll
+c:\users\shweta sharma\documents\visual studio 2010\Projects\Assignment-29-XPATH-and-XSLT\Assignment-29-XPATH-and-XSLT\obj\Debug\Assignment-29-XPATH-and-XSLT.pdb
