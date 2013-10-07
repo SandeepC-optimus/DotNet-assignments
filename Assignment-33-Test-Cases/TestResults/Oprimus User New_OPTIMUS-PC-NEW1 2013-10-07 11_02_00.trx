@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="e0f9dee5-06ef-4dce-b618-697fcf291a13" name="Oprimus User New@OPTIMUS-PC-NEW1 2013-10-07 11:02:00" runUser="OPTIMUS-PC-NEW1\Oprimus User New" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="d33705c7-96d0-4473-9c4c-8ea313b95fc5">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Oprimus User New_OPTIMUS-PC-NEW1 2013-10-07 11_02_00">
+      <DeploymentItem filename="C:\Users\Shweta Sharma\Documents\Visual Studio 2010\Projects\Assignment-33-Test-Cases\Assignment-33-Test-Cases\bin\Assignment-33-Test-Cases.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-10-07T11:02:00.2413669+05:30" queuing="2013-10-07T11:02:00.4023761+05:30" start="2013-10-07T11:02:00.4373781+05:30" finish="2013-10-07T11:02:00.9964101+05:30" />
+  <ResultSummary outcome="Failed">
+    <Counters total="4" executed="4" passed="2" error="0" failed="2" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="GetPercentageTest_BoundaryValues" storage="c:\users\shweta sharma\documents\visual studio 2010\projects\assignment-33-test-cases\checkpercentage\bin\debug\checkpercentage.dll" id="34de043c-a716-0b00-27f3-9195a5394f30">
+      <Execution id="13da155f-d4be-4a4e-b3d1-f99cd1bf0ac4" />
+      <TestMethod codeBase="C:/Users/Shweta Sharma/Documents/Visual Studio 2010/Projects/Assignment-33-Test-Cases/CheckPercentage/bin/Debug/CheckPercentage.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CheckPercentage.DataTest, CheckPercentage, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetPercentageTest_BoundaryValues" />
+    </UnitTest>
+    <UnitTest name="GetPercentage_PositiveTest" storage="c:\users\shweta sharma\documents\visual studio 2010\projects\assignment-33-test-cases\checkpercentage\bin\debug\checkpercentage.dll" id="22fb828f-6c5f-e4bb-7084-a6d4f0d3e7c7">
+      <Execution id="8a2bec40-5f20-4c80-82a9-c3694d473c5c" />
+      <TestMethod codeBase="C:/Users/Shweta Sharma/Documents/Visual Studio 2010/Projects/Assignment-33-Test-Cases/CheckPercentage/bin/Debug/CheckPercentage.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CheckPercentage.DataTest, CheckPercentage, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetPercentage_PositiveTest" />
+    </UnitTest>
+    <UnitTest name="GetPercentage_NegativeTest" storage="c:\users\shweta sharma\documents\visual studio 2010\projects\assignment-33-test-cases\checkpercentage\bin\debug\checkpercentage.dll" id="c466efc0-256c-0a4d-d337-d09c8cff9af8">
+      <Execution id="ff1270f5-1e21-4d6c-aa87-321cb9a5fa13" />
+      <TestMethod codeBase="C:/Users/Shweta Sharma/Documents/Visual Studio 2010/Projects/Assignment-33-Test-Cases/CheckPercentage/bin/Debug/CheckPercentage.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CheckPercentage.DataTest, CheckPercentage, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetPercentage_NegativeTest" />
+    </UnitTest>
+    <UnitTest name="GetPercentageTest" storage="c:\users\shweta sharma\documents\visual studio 2010\projects\assignment-33-test-cases\checkpercentage\bin\debug\checkpercentage.dll" id="1d85eeaf-7413-94d7-f905-ad5e55e85b76">
+      <Execution id="f41c9e18-7e60-4b69-bf2f-e4c195e7b99f" />
+      <TestMethod codeBase="C:/Users/Shweta Sharma/Documents/Visual Studio 2010/Projects/Assignment-33-Test-Cases/CheckPercentage/bin/Debug/CheckPercentage.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CheckPercentage.DataTest, CheckPercentage, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetPercentageTest" />
+      <AspNet webSiteUrl="http://localhost:8426/">
+        <Host pathToWebApp="c:\users\shweta sharma\documents\visual studio 2010\Projects\Assignment-33-Test-Cases\Assignment-33-Test-Cases" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1d85eeaf-7413-94d7-f905-ad5e55e85b76" executionId="f41c9e18-7e60-4b69-bf2f-e4c195e7b99f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="22fb828f-6c5f-e4bb-7084-a6d4f0d3e7c7" executionId="8a2bec40-5f20-4c80-82a9-c3694d473c5c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="34de043c-a716-0b00-27f3-9195a5394f30" executionId="13da155f-d4be-4a4e-b3d1-f99cd1bf0ac4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c466efc0-256c-0a4d-d337-d09c8cff9af8" executionId="ff1270f5-1e21-4d6c-aa87-321cb9a5fa13" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="f41c9e18-7e60-4b69-bf2f-e4c195e7b99f" testId="1d85eeaf-7413-94d7-f905-ad5e55e85b76" testName="GetPercentageTest" computerName="OPTIMUS-PC-NEW1" startTime="2013-10-07T11:02:00.5443842+05:30" endTime="2013-10-07T11:02:00.5883868+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f41c9e18-7e60-4b69-bf2f-e4c195e7b99f">
+      <Output>
+        <ErrorInfo>
+          <Message>The ASP.NET Web application at 'c:\users\shweta sharma\documents\visual studio 2010\Projects\Assignment-33-Test-Cases\Assignment-33-Test-Cases' is already configured for testing by another test run. Only one test run at a time can run tests in ASP.NET. If there are no other test runs using this Web application, ensure that the Web.config file does not contain an httpModule named HostAdapter.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8a2bec40-5f20-4c80-82a9-c3694d473c5c" testId="22fb828f-6c5f-e4bb-7084-a6d4f0d3e7c7" testName="GetPercentage_PositiveTest" computerName="OPTIMUS-PC-NEW1" duration="00:00:00.0294927" startTime="2013-10-07T11:02:00.5943871+05:30" endTime="2013-10-07T11:02:00.8984045+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8a2bec40-5f20-4c80-82a9-c3694d473c5c">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.IsFalse failed. Percentage lies in Boundary Value</Message>
+          <StackTrace>   at CheckPercentage.DataTest.GetPercentage_PositiveTest() in C:\Users\Shweta Sharma\Documents\Visual Studio 2010\Projects\Assignment-33-Test-Cases\CheckPercentage\DataTest.cs:line 146
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="13da155f-d4be-4a4e-b3d1-f99cd1bf0ac4" testId="34de043c-a716-0b00-27f3-9195a5394f30" testName="GetPercentageTest_BoundaryValues" computerName="OPTIMUS-PC-NEW1" duration="00:00:00.0014299" startTime="2013-10-07T11:02:00.9004046+05:30" endTime="2013-10-07T11:02:00.9064050+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="13da155f-d4be-4a4e-b3d1-f99cd1bf0ac4">
+    </UnitTestResult>
+    <UnitTestResult executionId="ff1270f5-1e21-4d6c-aa87-321cb9a5fa13" testId="c466efc0-256c-0a4d-d337-d09c8cff9af8" testName="GetPercentage_NegativeTest" computerName="OPTIMUS-PC-NEW1" duration="00:00:00.0002299" startTime="2013-10-07T11:02:00.9094051+05:30" endTime="2013-10-07T11:02:00.9134054+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ff1270f5-1e21-4d6c-aa87-321cb9a5fa13">
+    </UnitTestResult>
+  </Results>
+</TestRun>

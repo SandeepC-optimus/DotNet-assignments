@@ -1,0 +1,10 @@
+c:\users\shweta sharma\documents\visual studio 2010\Projects\Assignment-33-Test-Cases\Assignment-33-Test-Cases\bin\Assignment-33-Test-Cases.dll
+c:\users\shweta sharma\documents\visual studio 2010\Projects\Assignment-33-Test-Cases\Assignment-33-Test-Cases\bin\Assignment-33-Test-Cases.pdb
+c:\users\shweta sharma\documents\visual studio 2010\Projects\Assignment-33-Test-Cases\Assignment-33-Test-Cases\obj\Debug\ResolveAssemblyReference.cache
+c:\users\shweta sharma\documents\visual studio 2010\Projects\Assignment-33-Test-Cases\Assignment-33-Test-Cases\obj\Debug\Assignment-33-Test-Cases.dll
+c:\users\shweta sharma\documents\visual studio 2010\Projects\Assignment-33-Test-Cases\Assignment-33-Test-Cases\obj\Debug\Assignment-33-Test-Cases.pdb
+E:\DotNet-assignments\Assignment-33-Test-Cases\Assignment-33-Test-Cases\bin\Assignment-33-Test-Cases.dll
+E:\DotNet-assignments\Assignment-33-Test-Cases\Assignment-33-Test-Cases\bin\Assignment-33-Test-Cases.pdb
+E:\DotNet-assignments\Assignment-33-Test-Cases\Assignment-33-Test-Cases\obj\Debug\ResolveAssemblyReference.cache
+E:\DotNet-assignments\Assignment-33-Test-Cases\Assignment-33-Test-Cases\obj\Debug\Assignment-33-Test-Cases.dll
+E:\DotNet-assignments\Assignment-33-Test-Cases\Assignment-33-Test-Cases\obj\Debug\Assignment-33-Test-Cases.pdb

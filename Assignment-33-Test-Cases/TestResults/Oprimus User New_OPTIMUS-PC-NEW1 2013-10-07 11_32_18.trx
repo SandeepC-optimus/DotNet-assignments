@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="7f53e5a2-3d70-4f85-b4a5-d6247bfd4614" name="Oprimus User New@OPTIMUS-PC-NEW1 2013-10-07 11:32:18" runUser="OPTIMUS-PC-NEW1\Oprimus User New" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="d33705c7-96d0-4473-9c4c-8ea313b95fc5">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Oprimus User New_OPTIMUS-PC-NEW1 2013-10-07 11_32_18">
+      <DeploymentItem filename="C:\Users\Shweta Sharma\Documents\Visual Studio 2010\Projects\Assignment-33-Test-Cases\Assignment-33-Test-Cases\bin\Assignment-33-Test-Cases.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-10-07T11:32:18.8063829+05:30" queuing="2013-10-07T11:32:19.9824502+05:30" start="2013-10-07T11:32:20.1944623+05:30" finish="2013-10-07T11:32:42.0967150+05:30" />
+  <ResultSummary outcome="Error">
+    <Counters total="4" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="3" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="OPTIMUS-PC-NEW1" outcome="Error" timestamp="2013-10-07T11:32:42.0947149+05:30">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="GetPercentage_PositiveTest" storage="c:\users\shweta sharma\documents\visual studio 2010\projects\assignment-33-test-cases\checkpercentage\bin\debug\checkpercentage.dll" id="22fb828f-6c5f-e4bb-7084-a6d4f0d3e7c7">
+      <Execution id="e5c34f6f-2f15-4c49-8e5e-878678e259a4" />
+      <TestMethod codeBase="C:/Users/Shweta Sharma/Documents/Visual Studio 2010/Projects/Assignment-33-Test-Cases/CheckPercentage/bin/Debug/CheckPercentage.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CheckPercentage.DataTest, CheckPercentage, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetPercentage_PositiveTest" />
+    </UnitTest>
+    <UnitTest name="GetPercentageTest_exceptions" storage="c:\users\shweta sharma\documents\visual studio 2010\projects\assignment-33-test-cases\checkpercentage\bin\debug\checkpercentage.dll" id="014ff619-db58-2050-fd83-9f1458e393e7">
+      <Execution id="7cb405bd-aa13-47d4-8407-0e56983cdae5" />
+      <TestMethod codeBase="C:/Users/Shweta Sharma/Documents/Visual Studio 2010/Projects/Assignment-33-Test-Cases/CheckPercentage/bin/Debug/CheckPercentage.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CheckPercentage.DataTest, CheckPercentage, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetPercentageTest_exceptions" />
+    </UnitTest>
+    <UnitTest name="GetPercentage_NegativeTest" storage="c:\users\shweta sharma\documents\visual studio 2010\projects\assignment-33-test-cases\checkpercentage\bin\debug\checkpercentage.dll" id="c466efc0-256c-0a4d-d337-d09c8cff9af8">
+      <Execution id="7cae0c91-b6d5-4ec4-b6b8-04a733f549da" />
+      <TestMethod codeBase="C:/Users/Shweta Sharma/Documents/Visual Studio 2010/Projects/Assignment-33-Test-Cases/CheckPercentage/bin/Debug/CheckPercentage.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CheckPercentage.DataTest, CheckPercentage, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetPercentage_NegativeTest" />
+    </UnitTest>
+    <UnitTest name="GetPercentageTest_BoundaryValues" storage="c:\users\shweta sharma\documents\visual studio 2010\projects\assignment-33-test-cases\checkpercentage\bin\debug\checkpercentage.dll" id="34de043c-a716-0b00-27f3-9195a5394f30">
+      <Execution id="3e88d90c-a7a9-4435-a84b-230ab94675c1" />
+      <TestMethod codeBase="C:/Users/Shweta Sharma/Documents/Visual Studio 2010/Projects/Assignment-33-Test-Cases/CheckPercentage/bin/Debug/CheckPercentage.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CheckPercentage.DataTest, CheckPercentage, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetPercentageTest_BoundaryValues" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="014ff619-db58-2050-fd83-9f1458e393e7" executionId="7cb405bd-aa13-47d4-8407-0e56983cdae5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="22fb828f-6c5f-e4bb-7084-a6d4f0d3e7c7" executionId="e5c34f6f-2f15-4c49-8e5e-878678e259a4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="34de043c-a716-0b00-27f3-9195a5394f30" executionId="3e88d90c-a7a9-4435-a84b-230ab94675c1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c466efc0-256c-0a4d-d337-d09c8cff9af8" executionId="7cae0c91-b6d5-4ec4-b6b8-04a733f549da" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="7cb405bd-aa13-47d4-8407-0e56983cdae5" testId="014ff619-db58-2050-fd83-9f1458e393e7" testName="GetPercentageTest_exceptions" computerName="OPTIMUS-PC-NEW1" duration="00:00:21.7552444" startTime="2013-10-07T11:32:20.3404706+05:30" endTime="2013-10-07T11:32:42.0957150+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7cb405bd-aa13-47d4-8407-0e56983cdae5">
+    </UnitTestResult>
+    <UnitTestResult executionId="e5c34f6f-2f15-4c49-8e5e-878678e259a4" testId="22fb828f-6c5f-e4bb-7084-a6d4f0d3e7c7" testName="GetPercentage_PositiveTest" computerName="OPTIMUS-PC-NEW1" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e5c34f6f-2f15-4c49-8e5e-878678e259a4">
+    </UnitTestResult>
+    <UnitTestResult executionId="3e88d90c-a7a9-4435-a84b-230ab94675c1" testId="34de043c-a716-0b00-27f3-9195a5394f30" testName="GetPercentageTest_BoundaryValues" computerName="OPTIMUS-PC-NEW1" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3e88d90c-a7a9-4435-a84b-230ab94675c1">
+    </UnitTestResult>
+    <UnitTestResult executionId="7cae0c91-b6d5-4ec4-b6b8-04a733f549da" testId="c466efc0-256c-0a4d-d337-d09c8cff9af8" testName="GetPercentage_NegativeTest" computerName="OPTIMUS-PC-NEW1" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7cae0c91-b6d5-4ec4-b6b8-04a733f549da">
+    </UnitTestResult>
+  </Results>
+</TestRun>
