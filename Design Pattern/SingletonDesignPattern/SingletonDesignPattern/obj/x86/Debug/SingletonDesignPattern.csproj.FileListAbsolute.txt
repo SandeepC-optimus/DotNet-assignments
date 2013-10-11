@@ -1,0 +1,5 @@
+c:\users\shweta sharma\documents\visual studio 2010\Projects\SingletonDesignPattern\SingletonDesignPattern\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\shweta sharma\documents\visual studio 2010\Projects\SingletonDesignPattern\SingletonDesignPattern\bin\Debug\SingletonDesignPattern.exe
+c:\users\shweta sharma\documents\visual studio 2010\Projects\SingletonDesignPattern\SingletonDesignPattern\bin\Debug\SingletonDesignPattern.pdb
+c:\users\shweta sharma\documents\visual studio 2010\Projects\SingletonDesignPattern\SingletonDesignPattern\obj\x86\Debug\SingletonDesignPattern.exe
+c:\users\shweta sharma\documents\visual studio 2010\Projects\SingletonDesignPattern\SingletonDesignPattern\obj\x86\Debug\SingletonDesignPattern.pdb

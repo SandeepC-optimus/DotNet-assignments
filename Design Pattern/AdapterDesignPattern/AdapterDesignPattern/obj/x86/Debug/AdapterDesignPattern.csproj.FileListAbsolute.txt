@@ -1,0 +1,5 @@
+c:\users\shweta sharma\documents\visual studio 2010\Projects\AdapterDesignPattern\AdapterDesignPattern\bin\Debug\AdapterDesignPattern.exe
+c:\users\shweta sharma\documents\visual studio 2010\Projects\AdapterDesignPattern\AdapterDesignPattern\bin\Debug\AdapterDesignPattern.pdb
+c:\users\shweta sharma\documents\visual studio 2010\Projects\AdapterDesignPattern\AdapterDesignPattern\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\shweta sharma\documents\visual studio 2010\Projects\AdapterDesignPattern\AdapterDesignPattern\obj\x86\Debug\AdapterDesignPattern.exe
+c:\users\shweta sharma\documents\visual studio 2010\Projects\AdapterDesignPattern\AdapterDesignPattern\obj\x86\Debug\AdapterDesignPattern.pdb

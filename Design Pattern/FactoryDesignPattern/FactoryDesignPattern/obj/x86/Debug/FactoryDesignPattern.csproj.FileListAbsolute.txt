@@ -1,0 +1,5 @@
+c:\users\shweta sharma\documents\visual studio 2010\Projects\FactoryDesignPattern\FactoryDesignPattern\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\shweta sharma\documents\visual studio 2010\Projects\FactoryDesignPattern\FactoryDesignPattern\bin\Debug\FactoryDesignPattern.exe
+c:\users\shweta sharma\documents\visual studio 2010\Projects\FactoryDesignPattern\FactoryDesignPattern\bin\Debug\FactoryDesignPattern.pdb
+c:\users\shweta sharma\documents\visual studio 2010\Projects\FactoryDesignPattern\FactoryDesignPattern\obj\x86\Debug\FactoryDesignPattern.exe
+c:\users\shweta sharma\documents\visual studio 2010\Projects\FactoryDesignPattern\FactoryDesignPattern\obj\x86\Debug\FactoryDesignPattern.pdb

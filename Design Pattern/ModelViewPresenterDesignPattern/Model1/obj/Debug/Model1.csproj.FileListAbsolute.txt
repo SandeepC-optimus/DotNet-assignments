@@ -1,0 +1,5 @@
+c:\users\shweta sharma\documents\visual studio 2010\Projects\ModelViewPresenterDesignPattern\Model1\bin\Debug\Model1.dll
+c:\users\shweta sharma\documents\visual studio 2010\Projects\ModelViewPresenterDesignPattern\Model1\bin\Debug\Model1.pdb
+c:\users\shweta sharma\documents\visual studio 2010\Projects\ModelViewPresenterDesignPattern\Model1\obj\Debug\ResolveAssemblyReference.cache
+c:\users\shweta sharma\documents\visual studio 2010\Projects\ModelViewPresenterDesignPattern\Model1\obj\Debug\Model1.dll
+c:\users\shweta sharma\documents\visual studio 2010\Projects\ModelViewPresenterDesignPattern\Model1\obj\Debug\Model1.pdb
